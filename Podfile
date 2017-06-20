@@ -8,6 +8,8 @@ target 'Coursepad' do
     pod 'AlamofireSwiftyJSON'
     pod 'Kingfisher', '~> 3.5'
     pod 'MBProgressHUD', '~> 1.0'
+    pod 'Eureka', '~> 3.0'
+    pod 'GTProgressBar'
 
 
 end

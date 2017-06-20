@@ -8,8 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		29D1B62009EBEB526C87FFDB /* Pods_Coursepad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFF832F5C4C5B07021BBE80 /* Pods_Coursepad.framework */; };
+		AB0979631EE7E3BB003119CA /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0979621EE7E3BB003119CA /* EditProfileViewController.swift */; };
+		AB4198F91ED2DEDF00E07E12 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4198F81ED2DEDF00E07E12 /* LoginViewController.swift */; };
+		AB672D811EDBB4FF006552D4 /* CatBannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB672D801EDBB4FF006552D4 /* CatBannerTableViewCell.swift */; };
+		AB672D831EDBB51D006552D4 /* CatInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB672D821EDBB51D006552D4 /* CatInfoTableViewCell.swift */; };
+		AB672D851EDBB530006552D4 /* CatDescTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB672D841EDBB530006552D4 /* CatDescTableViewCell.swift */; };
+		AB672D871EDBB60E006552D4 /* CourseCatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB672D861EDBB60E006552D4 /* CourseCatTableViewController.swift */; };
+		AB672D891EDC110E006552D4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB672D881EDC110E006552D4 /* RegisterViewController.swift */; };
+		ABB72DB71EE5139D008FC5CB /* Request+debuglog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB72DB61EE5139D008FC5CB /* Request+debuglog.swift */; };
+		ABD23EB21EC2D6C9004FCECE /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD23EB11EC2D6C9004FCECE /* QuizViewController.swift */; };
+		ABD23EB41EC32CE1004FCECE /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD23EB31EC32CE1004FCECE /* StatisticsViewController.swift */; };
 		FC0073E21E7A1F8F00CB35AD /* BannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0073E11E7A1F8E00CB35AD /* BannerTableViewCell.swift */; };
-		FC03AD941E9DB023009F1E89 /* CourseInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AD931E9DB022009F1E89 /* CourseInfoViewController.swift */; };
 		FC300A901E6184AE009F43C5 /* android.png in Resources */ = {isa = PBXBuildFile; fileRef = FC300A8F1E6184AE009F43C5 /* android.png */; };
 		FC300A921E61852E009F43C5 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC300A911E61852E009F43C5 /* DashboardTableViewCell.swift */; };
 		FC300A941E61BD58009F43C5 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC300A931E61BD58009F43C5 /* VideoTableViewCell.swift */; };
@@ -36,7 +45,6 @@
 		FCE5483E1E8BE17B00A823F6 /* logo edutech.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCE5483D1E8BE17B00A823F6 /* logo edutech.jpg */; };
 		FCE548401E8BE1B300A823F6 /* logo_edutech.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE5483F1E8BE1B300A823F6 /* logo_edutech.png */; };
 		FCE548421E8BE94400A823F6 /* LessonWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE548411E8BE94300A823F6 /* LessonWebViewController.swift */; };
-		FCE548441E8FDE4E00A823F6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE548431E8FDE4D00A823F6 /* ProfileViewController.swift */; };
 		FCE5484B1E91015A00A823F6 /* profile_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCE5484A1E91015900A823F6 /* profile_banner.jpg */; };
 		FCE5484D1E91028D00A823F6 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE5484C1E91028D00A823F6 /* avatar.png */; };
 		FCE5484F1E91059F00A823F6 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE5484E1E91059F00A823F6 /* ProfileTableViewController.swift */; };
@@ -48,8 +56,17 @@
 		1CFF832F5C4C5B07021BBE80 /* Pods_Coursepad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coursepad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60449AC9B8046A74AB6AC5DD /* Pods-Coursepad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coursepad.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coursepad/Pods-Coursepad.release.xcconfig"; sourceTree = "<group>"; };
 		64BCB3555CE63A1E7334F28C /* Pods-Coursepad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coursepad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coursepad/Pods-Coursepad.debug.xcconfig"; sourceTree = "<group>"; };
+		AB0979621EE7E3BB003119CA /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		AB4198F81ED2DEDF00E07E12 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AB672D801EDBB4FF006552D4 /* CatBannerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatBannerTableViewCell.swift; sourceTree = "<group>"; };
+		AB672D821EDBB51D006552D4 /* CatInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatInfoTableViewCell.swift; sourceTree = "<group>"; };
+		AB672D841EDBB530006552D4 /* CatDescTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatDescTableViewCell.swift; sourceTree = "<group>"; };
+		AB672D861EDBB60E006552D4 /* CourseCatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCatTableViewController.swift; sourceTree = "<group>"; };
+		AB672D881EDC110E006552D4 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		ABB72DB61EE5139D008FC5CB /* Request+debuglog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Request+debuglog.swift"; sourceTree = "<group>"; };
+		ABD23EB11EC2D6C9004FCECE /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		ABD23EB31EC32CE1004FCECE /* StatisticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		FC0073E11E7A1F8E00CB35AD /* BannerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerTableViewCell.swift; sourceTree = "<group>"; };
-		FC03AD931E9DB022009F1E89 /* CourseInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseInfoViewController.swift; sourceTree = "<group>"; };
 		FC300A8F1E6184AE009F43C5 /* android.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android.png; sourceTree = "<group>"; };
 		FC300A911E61852E009F43C5 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
 		FC300A931E61BD58009F43C5 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
@@ -79,10 +96,9 @@
 		FCE5483D1E8BE17B00A823F6 /* logo edutech.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo edutech.jpg"; sourceTree = "<group>"; };
 		FCE5483F1E8BE1B300A823F6 /* logo_edutech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_edutech.png; sourceTree = "<group>"; };
 		FCE548411E8BE94300A823F6 /* LessonWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonWebViewController.swift; sourceTree = "<group>"; };
-		FCE548431E8FDE4D00A823F6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FCE5484A1E91015900A823F6 /* profile_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile_banner.jpg; sourceTree = "<group>"; };
 		FCE5484C1E91028D00A823F6 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
-		FCE5484E1E91059F00A823F6 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileTableViewController.swift; path = Coursepad/ProfileTableViewController.swift; sourceTree = "<group>"; };
+		FCE5484E1E91059F00A823F6 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		FCE548501E9123B600A823F6 /* CatalogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
 		FCE548521E91254400A823F6 /* CatalogTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,11 +132,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AB672D7F1EDBB33D006552D4 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AB672D801EDBB4FF006552D4 /* CatBannerTableViewCell.swift */,
+				AB672D821EDBB51D006552D4 /* CatInfoTableViewCell.swift */,
+				AB672D841EDBB530006552D4 /* CatDescTableViewCell.swift */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		ABE2E0001ED50C090003F408 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				FCE548501E9123B600A823F6 /* CatalogViewController.swift */,
+			);
+			name = Catalog;
+			sourceTree = "<group>";
+		};
+		ABE2E0011ED50C110003F408 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FCE5484E1E91059F00A823F6 /* ProfileTableViewController.swift */,
+				AB0979621EE7E3BB003119CA /* EditProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		ABE2E0021ED50C200003F408 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				ABD23EB11EC2D6C9004FCECE /* QuizViewController.swift */,
+			);
+			name = Quiz;
+			sourceTree = "<group>";
+		};
+		ABE2E0031ED50C290003F408 /* Lesson */ = {
+			isa = PBXGroup;
+			children = (
+				FC300A991E62F016009F43C5 /* LessonViewController.swift */,
+			);
+			name = Lesson;
+			sourceTree = "<group>";
+		};
 		FC41427C1E5EF93100D81B88 = {
 			isa = PBXGroup;
 			children = (
 				FCC48BDA1E99C295007AEBA2 /* BrigingHeader.h */,
-				FCE5484E1E91059F00A823F6 /* ProfileTableViewController.swift */,
 				FC4142871E5EF93200D81B88 /* Coursepad */,
 				FC4142861E5EF93200D81B88 /* Products */,
 				0035B9737418BCCF5077241E /* Pods */,
@@ -139,18 +197,18 @@
 		FC4142871E5EF93200D81B88 /* Coursepad */ = {
 			isa = PBXGroup;
 			children = (
+				AB672D7F1EDBB33D006552D4 /* Custom Cell */,
+				ABE2E0011ED50C110003F408 /* Profile */,
+				ABE2E0001ED50C090003F408 /* Catalog */,
 				FC64C4251EC13B2D00142FF4 /* Course */,
 				FC300A971E62C228009F43C5 /* CourseDetailViewController.swift */,
 				FC41429C1E5FB1E900D81B88 /* images */,
 				FC4142881E5EF93200D81B88 /* AppDelegate.swift */,
 				FC41428A1E5EF93200D81B88 /* ViewController.swift */,
 				FC41428C1E5EF93200D81B88 /* Main.storyboard */,
-				FC03AD931E9DB022009F1E89 /* CourseInfoViewController.swift */,
-				FCE548501E9123B600A823F6 /* CatalogViewController.swift */,
+				AB672D881EDC110E006552D4 /* RegisterViewController.swift */,
 				FC9286001E7EC6CA00047E74 /* WebTableViewCell.swift */,
-				FC300A991E62F016009F43C5 /* LessonViewController.swift */,
 				FC300A911E61852E009F43C5 /* DashboardTableViewCell.swift */,
-				FC41429A1E5FAF0F00D81B88 /* SecondViewController.swift */,
 				FC41428F1E5EF93200D81B88 /* Assets.xcassets */,
 				FC4142911E5EF93200D81B88 /* LaunchScreen.storyboard */,
 				FC4142941E5EF93200D81B88 /* Info.plist */,
@@ -158,11 +216,13 @@
 				FC0073E11E7A1F8E00CB35AD /* BannerTableViewCell.swift */,
 				FCCB58391E8A13CE002EFFDD /* CourseCardTableViewCell.swift */,
 				FCE548411E8BE94300A823F6 /* LessonWebViewController.swift */,
-				FCE548431E8FDE4D00A823F6 /* ProfileViewController.swift */,
 				FCE548521E91254400A823F6 /* CatalogTableViewCell.swift */,
 				FCC48BDF1E9A296C007AEBA2 /* LessonTableViewCell.swift */,
 				FC64C4231EC0797B00142FF4 /* BadgeViewController.swift */,
 				FC64C4261EC13FA700142FF4 /* BadgeCollectionViewCell.swift */,
+				ABD23EB31EC32CE1004FCECE /* StatisticsViewController.swift */,
+				AB4198F81ED2DEDF00E07E12 /* LoginViewController.swift */,
+				ABB72DB61EE5139D008FC5CB /* Request+debuglog.swift */,
 			);
 			path = Coursepad;
 			sourceTree = "<group>";
@@ -189,6 +249,10 @@
 		FC64C4251EC13B2D00142FF4 /* Course */ = {
 			isa = PBXGroup;
 			children = (
+				AB672D861EDBB60E006552D4 /* CourseCatTableViewController.swift */,
+				FC41429A1E5FAF0F00D81B88 /* SecondViewController.swift */,
+				ABE2E0031ED50C290003F408 /* Lesson */,
+				ABE2E0021ED50C200003F408 /* Quiz */,
 			);
 			name = Course;
 			sourceTree = "<group>";
@@ -319,7 +383,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -329,25 +393,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB672D891EDC110E006552D4 /* RegisterViewController.swift in Sources */,
 				FCE548511E9123B600A823F6 /* CatalogViewController.swift in Sources */,
 				FC9286011E7EC6CD00047E74 /* WebTableViewCell.swift in Sources */,
 				FC300A9A1E62F017009F43C5 /* LessonViewController.swift in Sources */,
 				FCCB583A1E8A13CE002EFFDD /* CourseCardTableViewCell.swift in Sources */,
+				AB672D831EDBB51D006552D4 /* CatInfoTableViewCell.swift in Sources */,
+				AB672D811EDBB4FF006552D4 /* CatBannerTableViewCell.swift in Sources */,
 				FC41429B1E5FAF1000D81B88 /* SecondViewController.swift in Sources */,
 				FC41428B1E5EF93200D81B88 /* ViewController.swift in Sources */,
+				ABD23EB41EC32CE1004FCECE /* StatisticsViewController.swift in Sources */,
+				ABB72DB71EE5139D008FC5CB /* Request+debuglog.swift in Sources */,
 				FC300A921E61852E009F43C5 /* DashboardTableViewCell.swift in Sources */,
-				FCE548441E8FDE4E00A823F6 /* ProfileViewController.swift in Sources */,
 				FC64C4241EC0797D00142FF4 /* BadgeViewController.swift in Sources */,
+				AB4198F91ED2DEDF00E07E12 /* LoginViewController.swift in Sources */,
+				AB672D871EDBB60E006552D4 /* CourseCatTableViewController.swift in Sources */,
+				AB672D851EDBB530006552D4 /* CatDescTableViewCell.swift in Sources */,
 				FC4142891E5EF93200D81B88 /* AppDelegate.swift in Sources */,
 				FCE548531E91254500A823F6 /* CatalogTableViewCell.swift in Sources */,
+				ABD23EB21EC2D6C9004FCECE /* QuizViewController.swift in Sources */,
 				FC64C4271EC13FA700142FF4 /* BadgeCollectionViewCell.swift in Sources */,
 				FCE5484F1E91059F00A823F6 /* ProfileTableViewController.swift in Sources */,
 				FCC48BE01E9A296C007AEBA2 /* LessonTableViewCell.swift in Sources */,
-				FC03AD941E9DB023009F1E89 /* CourseInfoViewController.swift in Sources */,
 				FC0073E21E7A1F8F00CB35AD /* BannerTableViewCell.swift in Sources */,
 				FCE548421E8BE94400A823F6 /* LessonWebViewController.swift in Sources */,
 				FC300A981E62C228009F43C5 /* CourseDetailViewController.swift in Sources */,
 				FC300A941E61BD58009F43C5 /* VideoTableViewCell.swift in Sources */,
+				AB0979631EE7E3BB003119CA /* EditProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

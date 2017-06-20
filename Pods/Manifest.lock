@@ -3,22 +3,28 @@ PODS:
   - AlamofireSwiftyJSON (0.2.0):
     - Alamofire (~> 4.0)
     - SwiftyJSON (~> 3.1)
+  - Eureka (3.0.0)
+  - GTProgressBar (0.1.3)
   - Kingfisher (3.5.1)
   - MBProgressHUD (1.0.0)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - AlamofireSwiftyJSON
+  - Eureka (~> 3.0)
+  - GTProgressBar
   - Kingfisher (~> 3.5)
   - MBProgressHUD (~> 1.0)
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   AlamofireSwiftyJSON: 5a49196b8b061e32f5ebc84fa0815300bd8a974e
+  Eureka: f36fd440c3ebb7bfea0a4fbe6f16a05f1cb35906
+  GTProgressBar: d130b36db4d0af881795aa4e5648e6dccd85b8fa
   Kingfisher: 12eeffeef42ea45b68c5e5acfe8ba9005b713ab4
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: b06a7fb0ee34dedb54eb73f0d10bfbe616e4bd22
+PODFILE CHECKSUM: f6f0a74b587e44f9299186fcef90e322fb874ceb
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1
